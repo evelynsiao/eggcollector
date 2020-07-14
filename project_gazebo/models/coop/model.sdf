@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="coop">
+    <static>true</static>
+    <link name="link">
+      
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://coop/meshes/coop.STL</uri>
+            <scale>0.03 0.03 0.03</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>10000</mu>
+              <mu2>10000</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://coop/meshes/coop.STL</uri>
+            <scale>0.03 0.03 0.03</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
+
+

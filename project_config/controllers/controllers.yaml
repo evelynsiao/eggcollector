@@ -1,0 +1,11 @@
+controller_list:
+  - name: right_arm_controller
+    action_ns: "follow_joint_trajectory"
+    type: FollowJointTrajectory 
+    joints: [rjoint1, rjoint2, rjoint3]
+  - name: left_arm_controller
+    action_ns: "follow_joint_trajectory"
+    type: FollowJointTrajectory 
+    joints: [ljoint1, ljoint2]
+
+

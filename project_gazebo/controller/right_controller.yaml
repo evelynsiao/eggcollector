@@ -1,0 +1,12 @@
+right_arm_controller:
+  type: position_controllers/JointTrajectoryController
+  joints:
+    - rjoint1
+    - rjoint2
+    - rjoint3
+  state_publish_rate: 25
+  action_monitor_rate: 10
+
+
+
+

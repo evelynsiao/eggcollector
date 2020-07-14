@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: project
+    relative_path: urdf/project.urdf
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/project.srdf
+  CONFIG:
+    author_name: evelyn
+    author_email: evelynsiao@hotmail.co.uk
+    generated_timestamp: 1594699859
